@@ -1,9 +1,6 @@
 import requests
 
 
-base_url = "https://famous-programmers.herokuapp.com/"
-
-
 def get_programmer_count():
     """
     Return the number of programmers return from the plural programmers API
