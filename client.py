@@ -18,10 +18,10 @@ def get_programmer_by_id(pid):
     return {}
 
 
-def get_last_name_from_first(first_name):
+def get_full_name_from_first(first_name):
     """
-    Return the last name of the *first* programmer having the provided first name.
+    Return the full name of the *first* programmer having the provided first name, concatenating the first and last name with a space between.
     :param first_name:
-    :return: A string containing the last name of the first programmer in the list of matches.
+    :return: A string containing the first and last name of the first programmer in the list of matches.
     """
     return ""
